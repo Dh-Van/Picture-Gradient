@@ -31,9 +31,11 @@ public class Gradient {
         for(Pixel[] pA : pixelArray){
             for(Pixel p : pA){
                 Color currColor = p.getColor();
-                if(!uniqueList.contains(currColor)) {
-                    uniqueList.add(currColor);
-                    pixelList.add(p);
+                for(Color c : uniqueList){
+                    if(!Utils.inRange(currColor, c, 50)){
+                        uniqueList.add(currColor);
+                        pixelList.add(p);
+                    }
                 }
             }
         }
