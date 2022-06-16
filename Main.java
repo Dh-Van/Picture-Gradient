@@ -8,6 +8,7 @@ public class Main {
     private static final Picture PLASMA = new Picture("Plasma.jpg");
     private static final Picture CALEB = new Picture ("Caleb.jpeg");
     private static final Picture RED_SHADES = new Picture("ShadesRed.png");
+    private static final Picture BLUE_SHADES = new Picture("ShadesBlue.png");
     private static final Picture BLISS = new Picture("Bliss.jpg");
     private static final Picture SHIFU = new Picture("Shifu.jpg");
 
@@ -34,6 +35,8 @@ public class Main {
 
 //        PLASMA.show();
 //        setVibrant(PLASMA).show();
+
+//        combine(BLUE_SHADES, RED_SHADES, true).show();
 
     }
 
