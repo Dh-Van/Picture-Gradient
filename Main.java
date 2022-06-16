@@ -5,18 +5,35 @@ import java.awt.*;
 
 public class Main {
 
-    private static final Picture PLASMA = new Picture("Plasma.jpeg");
+    private static final Picture PLASMA = new Picture("Plasma.jpg");
     private static final Picture CALEB = new Picture ("Caleb.jpeg");
     private static final Picture RED_SHADES = new Picture("ShadesRed.png");
-    private static final Picture LANDSCAPE = new Picture("landscape1.jpg");
+    private static final Picture BLISS = new Picture("Bliss.jpg");
+    private static final Picture SHIFU = new Picture("Shifu.jpg");
 
     public static void main(String[] args) {
         System.out.printf("PLASMA:\tWidth: %d\tHeight: %d\n", PLASMA.getWidth(), PLASMA.getHeight());
         System.out.printf("CALEB:\tWidth: %d\tHeight: %d\n", CALEB.getWidth(), CALEB.getHeight());
         System.out.printf("RED_SHADES:\tWidth: %d\tHeight: %d\n", RED_SHADES.getWidth(), RED_SHADES.getHeight());
-        System.out.printf("LANDSCAPE:\tWidth: %d\tHeight: %d\n", LANDSCAPE.getWidth(), LANDSCAPE.getHeight());
+        System.out.printf("BLISS:\tWidth: %d\tHeight: %d\n", BLISS.getWidth(), BLISS.getHeight());
+        System.out.printf("SHIFU:\tWidth: %d\tHeight: %d\n", SHIFU.getWidth(), SHIFU.getHeight());
 
-        combine(RED_SHADES, CALEB, false).show();
+
+//        Uncomment each block to see what each method does
+
+//        CALEB.show();
+//        BLISS.show();
+//        combine(BLISS, CALEB, false).show();
+
+//        SHIFU.show();
+//        RED_SHADES.show();
+//        combine(RED_SHADES, SHIFU, false).show();
+
+//        SHIFU.show();
+//        setVibrant(SHIFU).show();
+
+//        PLASMA.show();
+//        setVibrant(PLASMA).show();
 
     }
 
